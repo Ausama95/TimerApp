@@ -6,19 +6,18 @@ A sleek, customizable desktop timer built with [Electron](https://www.electronjs
 
 ## ✨ Features
 
-- 🖥️ Runs as a native desktop app on Windows, macOS, and Linux
-- 🔘 Quick-select timer buttons (10, 20, 30 minutes)
-- ▶️ Start, 🔁 Reset, and ❌ Close buttons
-- 🕓 Circular timer display with animated countdown
-- 💅 Built using [Bulma CSS](https://bulma.io/) for a modern look
-- 💻 Built-in screen capture options (via `desktopCapturer`, optional)
+- 🖥️ Runs as a native desktop app on Windows, macOS, and Linux.
+- 🔘 Quick-select timer buttons (10, 20, 30 minutes).
+- ▶️ Start and 🔁 Reset buttons.
+- 🕓 Circular timer display with animated countdown.
+- 💅 Built using [Bulma CSS](https://bulma.io/) for a modern look.
 
 ---
 
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/Ausama95/electron-timer-app.git
-cd electron-timer-app
+git clone https://github.com/Ausama95/TimerApp.git
+cd TimerApp
 npm install
 npm start
