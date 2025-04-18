@@ -19,6 +19,47 @@
                   <h1 id="time">24:59</h1>
               </div>
               <div id="button-container">
+                <!-- <div class="input-group">
+                  <label for="minutes">Minutes:</label>
+                  <input type="number" id="minutes" value="25" min="0" max="60" />
+                </div>
+                <div class="input-group">
+                  <label for="seconds">Seconds:</label>
+                  <input type="number" id="seconds" value="0" min="0" max="59" />
+                </div>
+                <div class="input-group">
+                  <label for="break">Break:</label>
+                  <input type="number" id="break" value="5" min="0" max="60" />
+                </div>
+                <div class="input-group">
+                  <label for="longBreak">Long Break:</label>
+                  <input type="number" id="longBreak" value="15" min="0" max="60" />
+                </div>
+                <div class="input-group">
+                  <label for="cycles">Cycles:</label>
+                  <input type="number" id="cycles" value="4" min="1" max="10" />
+                </div>
+                <div class="input-group">
+                  <label for="longBreakAfter">Long Break After:</label>
+                  <input type="number" id="longBreakAfter" value="4" min="1" max="10" />
+                </div>
+                <div class="input-group">
+                  <label for="sound">Sound:</label>
+                  <select id="sound">
+                    <option value="beep">Beep</option>
+                    <option value="chime">Chime</option>
+                    <option value="alarm">Alarm</option>
+                  </select>
+                </div> -->
+                <div class="input-group">
+                  <div class="checkbox-container">
+                    <label class="styled-checkbox">
+                      <input type="checkbox" id="notificationCheckbox" checked/>
+                      <span class="checkmark"></span>
+                      🔊 Enable Notification
+                    </label>
+                  </div>
+                </div>
                 <div class="preset-buttons">
                   <button id="tenMinBtn" class="button">10 min</button>
                   <button id="twentyMinBtn" class="button">20 min</button>
@@ -28,7 +69,14 @@
                 <div class="button-row">
                   <button id="startBtn" class="button is-primary">Start</button>
                   <button id="resetBtn" class="button is-warning">Reset</button>
-                  <!-- <button id="closeBtn" class="button is-danger">&times;</button> -->
+                  <button id="customTimeToggle" class="button is-info">Add Custom Time</button>
+                </div>
+                <div class="button-row">
+                  <input id="customTimeInput" type="text" class="hidden" placeholder="Enter time in seconds" />
+                  <button id="customTimeBtn" class="button is-info">Set</button>
+                </div>
+                <div class="button-row">
+                  <button id="closeBtn" class="button is-danger">Close</button>
                 </div>
               </div>
           </div>
