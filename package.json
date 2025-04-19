@@ -1,8 +1,8 @@
 {
-  "name": "timer",
+  "name": "timer-app",
   "productName": "timer",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "A sleek desktop timer app built with Electron.",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "author": {
-    "name": "Osama Khalid Walid Ahmed",
+    "name": "Ausama95",
     "email": "ausama95@yahoo.com"
   },
   "license": "MIT",

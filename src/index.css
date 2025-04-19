@@ -6,6 +6,10 @@ body {
   padding: 2rem;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 #timerDisplay {
   width: 150px;
   height: 150px;
