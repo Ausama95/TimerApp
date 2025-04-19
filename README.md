@@ -8,9 +8,11 @@ A sleek, customizable desktop timer built with [Electron](https://www.electronjs
 
 - 🖥️ Runs as a native desktop app on Windows, macOS, and Linux.
 - 🔘 Quick-select timer buttons (10, 20, 30 minutes).
-- ▶️ Start and 🔁 Reset buttons.
+- ⌨️ Custom time input for full flexibility.
+- 🔇 Mute checkbox to disable end-of-timer sounds.
+- ▶️ Start, Stop and 🔁 Reset buttons.
 - 🕓 Circular timer display with animated countdown.
-- 💅 Built using [Bulma CSS](https://bulma.io/) for a modern look.
+- 📱 Built using [Bulma CSS](https://bulma.io/) for a modern look.
 
 ---
 
